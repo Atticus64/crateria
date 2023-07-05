@@ -1,0 +1,16 @@
+[package]
+name = "crateria"
+version = "0.1.0"
+edition = "2021"
+
+# API
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "crateria"
+path = "src/main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
